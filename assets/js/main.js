@@ -323,7 +323,7 @@
 							}, 125);
 
 					})
-					.on('keypress', '.modal', function(event) {
+					.on('keydown', '.modal', function(event) {
 
 						var $modal = $(this);
 
