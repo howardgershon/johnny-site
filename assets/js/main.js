@@ -329,7 +329,6 @@
 
 						// Escape? Hide modal.
 							if (event.keyCode == 27)
-                                alert('you hit esc');
 								$modal.trigger('click');
 
 					})
